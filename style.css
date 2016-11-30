@@ -1,7 +1,38 @@
-.phone-element{
-	display: none !important;
-}
+/*
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Bungee Shade', cursive;
+*/
 
 body{
-	background-color: black;
+		font-size: 2em;
+		text-align: center;	
+		margin: 0px;
+}
+
+header{
+	background-image: url(https://www.gamedevmarket.net/media/get/cc_3909ffb438a81459b0711103acc63f57fc0108af.jpg/);
+}
+h1{
+	font-family: 'Bungee Shade', cursive;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    padding: 20px;
+    color: #ffa500;
+}
+
+h3, p{
+	    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3{
+	padding:3% 4% 3% 4%;
+}
+
+p{
+	padding:0% 5% 2% 5%;
+}
+section{
+	background-color: #ffffbc;
 }
