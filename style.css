@@ -11,6 +11,7 @@ body{
 
 header{
 	background-image: url(https://www.gamedevmarket.net/media/get/cc_3909ffb438a81459b0711103acc63f57fc0108af.jpg/);
+	background-size: cover;
 }
 h1{
 	font-family: 'Bungee Shade', cursive;
