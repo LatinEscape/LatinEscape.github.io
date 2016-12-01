@@ -2,6 +2,10 @@
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Bungee Shade', cursive;
 */
+div{
+	background-color: #ffa500;
+	padding: 30px;
+}
 
 body{
 		font-size: 2em;
