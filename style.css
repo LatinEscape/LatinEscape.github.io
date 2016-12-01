@@ -41,3 +41,42 @@ p{
 section{
 	background-color: #ffffbc;
 }
+
+.frame{
+	position: relative;
+}
+
+.day{
+	position: absolute;
+	list-style: none;
+	top: 25%;
+	padding-left: 25%;
+	width: 50%;
+}
+
+.day li{
+	float: left;
+	font-size: 50%;
+	padding-right: 8%;
+}
+
+@media(max-width: 580px){
+	.day{
+		display: none;
+	}
+
+	body{
+		background-color: black;
+	}
+}
+
+@media(max-width: 1000px){
+	.day{
+		padding-left: 20%;
+	}
+}
+
+
+
+
+
