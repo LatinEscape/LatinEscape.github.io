@@ -1,8 +1,14 @@
-$('iframe').on('load', function() {
-	console.log("got here");
-	console.log($('iframe').contents());
-    $('iframe').contents().find(".phone-element").append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
+
+	// $('#click').on('click', function(){
+	// 	console.log("clicked");
+	// 	$('.day').remove();
+	// });
+
+$('#click').on('load',function(){
+	console.log(this);
+  $(this).contents().on('click', function(event) { alert('test'); });
 });
+
 
 
 // var c = document.createElement('link');
