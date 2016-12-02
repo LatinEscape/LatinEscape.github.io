@@ -15,8 +15,12 @@ body{
 
 header{
 	background-image: url(https://www.gamedevmarket.net/media/get/cc_3909ffb438a81459b0711103acc63f57fc0108af.jpg/);
-	background-size: cover;
 }
+
+header p{
+
+}
+
 h1{
 	font-family: 'Bungee Shade', cursive;
 	-webkit-margin-before: 0em;
@@ -38,6 +42,7 @@ h3{
 p{
 	padding:0% 5% 2% 5%;
 }
+
 section{
 	background-color: #ffffbc;
 }
